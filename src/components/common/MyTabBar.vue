@@ -1,22 +1,22 @@
 <template>
     <div>
       <tab-bar>
-        <tab-bar-item path="/home" activeColor="#d4237a">
+        <tab-bar-item path="/home" activeColor="#1f73ba">
            <img slot="item-icon" src="@/assets/img/house-active.svg" alt="">
            <img slot="item-icon-active" src="@/assets/img/house.svg" alt="">
            <div slot="item-text">首页</div>
         </tab-bar-item>
-        <tab-bar-item path="/class" activeColor="#d4237a">
-           <img slot="item-icon" src="@/assets/img/class.svg" alt="">
-           <img slot="item-icon-active" src="@/assets/img/class-active.svg" alt="">
-           <div slot="item-text">分类</div>
+        <tab-bar-item path="/class" activeColor="#1f73ba">
+           <img slot="item-icon" src="@/assets/img/news.svg" alt="">
+           <img slot="item-icon-active" src="@/assets/img/news-active.svg" alt="">
+           <div slot="item-text">时事</div>
         </tab-bar-item>
-        <tab-bar-item path="/shopping" activeColor="#d4237a">
-           <img slot="item-icon" src="@/assets/img/shopping.svg" alt="">
-           <img slot="item-icon-active" src="@/assets/img/shopping-active.svg" alt="">
-           <div slot="item-text">购物车</div>
+        <tab-bar-item path="/shopping" activeColor="#1f73ba">
+           <img slot="item-icon" src="@/assets/img/column.svg" alt="">
+           <img slot="item-icon-active" src="@/assets/img/column-active.svg" alt="">
+           <div slot="item-text">专题</div>
         </tab-bar-item>
-        <tab-bar-item path="/my" activeColor="#d4237a">
+        <tab-bar-item path="/my" activeColor="#1f73ba">
            <img slot="item-icon" src="@/assets/img/my.svg" alt="">
            <img slot="item-icon-active" src="@/assets/img/my-active.svg" alt="">
            <div slot="item-text">我的</div>

@@ -17,5 +17,6 @@
     }
     .slide img{
         width:100%;
+        height:230px;;
     }
 </style>
