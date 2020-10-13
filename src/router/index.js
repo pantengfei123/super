@@ -20,11 +20,11 @@ const routes = [
   },
   {
     path:"/class",
-    component: () => import(/* webpackChunkName: "about" */ '@/views/class/class.vue')
+    component: () => import(/* webpackChunkName: "about" */ '@/views/event/class.vue')
   },
   {
     path:"/shopping",
-    component: () => import(/* webpackChunkName: "about" */ '@/views/shopping/shoping.vue')
+    component: () => import(/* webpackChunkName: "about" */ '@/views/cloumn/shoping.vue')
   },
   {
     path:"/my",
