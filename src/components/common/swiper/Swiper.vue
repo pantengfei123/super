@@ -50,7 +50,7 @@
 
         // 2.开启定时器
         this.startTimer();
-      }, 3000)
+      },500)
     },
     methods: {
 		  /**
@@ -213,6 +213,9 @@
   #hy-swiper {
     overflow: hidden;
     position: relative;
+    width:95%;
+    margin:5px auto 5px;
+    border-radius:13px;
   }
 
   .swiper {

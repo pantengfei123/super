@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <my-tab-bar ></my-tab-bar>
   </div>
 </template>
 
@@ -16,5 +15,10 @@ import MyTabBar from "@/components/common/MyTabBar.vue"
 </script>
 <style>
   @import "assets/css/base.css";
-  
+  html,body,#app{
+    height:100%;
+  }
+  my-tab-bar{
+     z-index:999;
+  }
 </style>
