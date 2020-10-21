@@ -48,12 +48,17 @@
                     </td>
                </tr>
            </table>
-       </div>     
+       </div>  
+       <my-tab-bar></my-tab-bar>   
     </div>
 </template>
 
 <script>
+import MyTabBar from "@/components/common/MyTabBar.vue"
 export default {
+    components:{
+          MyTabBar
+    },
     methods:{
         login(){
             this.$router.push('/login')
